@@ -6,8 +6,8 @@ Solutions to Introduction to Programming Using Python by Y. Daniel Liang, 1st ed
 
 # Contents
 
-<div style="display: flex; align-items: center;">
-    <a href="https://amzn.to/35ufmpw"><img src="images/cover_small.jpg"></a>
+<div class="d-flex flex-items-center" style="display: flex; align-items: center;">
+    <a class="mr-2" href="https://amzn.to/35ufmpw"><img src="images/cover_small.jpg"></a>
     <ol>
         <li>Introduction to Computers, Programs, and Python</li>
         <li>Elementary Programming</li>
