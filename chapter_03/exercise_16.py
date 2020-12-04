@@ -1,0 +1,101 @@
+#!/usr/bin/env python3
+
+# (Turtle: draw shapes) Write a program that draws a triangle, square, pentagon,
+# hexagon, and octagon, as shown in Figure 3.6b. Note that the bottom edges of
+# these shapes are parallel to the x-axis. (Hint: For a triangle with a bottom line
+# parallel to the x-axis, set the turtle's heading to 60 degrees.)
+
+import turtle
+
+# triangle
+turtle.penup()
+turtle.goto(-400, 0)
+turtle.pendown()
+turtle.begin_fill()
+turtle.forward(100)
+turtle.right(360 - 360/3)
+turtle.forward(100)
+turtle.right(360 - 360/3)
+turtle.forward(100)
+turtle.right(360 - 360/3)
+turtle.end_fill()
+
+# square
+turtle.penup()
+turtle.goto(-280, 0)
+turtle.pendown()
+turtle.begin_fill()
+turtle.forward(100)
+turtle.right(360 - 360/4)
+turtle.forward(100)
+turtle.right(360 - 360/4)
+turtle.forward(100)
+turtle.right(360 - 360/4)
+turtle.forward(100)
+turtle.right(360 - 360/4)
+turtle.end_fill()
+
+# pentagon
+turtle.penup()
+turtle.goto(-120, 0)
+turtle.pendown()
+turtle.begin_fill()
+turtle.forward(100)
+turtle.right(360 - 360/5)
+turtle.forward(100)
+turtle.right(360 - 360/5)
+turtle.forward(100)
+turtle.right(360 - 360/5)
+turtle.forward(100)
+turtle.right(360 - 360/5)
+turtle.forward(100)
+turtle.right(360 - 360/5)
+turtle.end_fill()
+
+# hexagon
+turtle.penup()
+turtle.goto(80, 0)
+turtle.pendown()
+turtle.begin_fill()
+turtle.forward(100)
+turtle.right(360 - 360/6)
+turtle.forward(100)
+turtle.right(360 - 360/6)
+turtle.forward(100)
+turtle.right(360 - 360/6)
+turtle.forward(100)
+turtle.right(360 - 360/6)
+turtle.forward(100)
+turtle.right(360 - 360/6)
+turtle.forward(100)
+turtle.right(360 - 360/6)
+turtle.end_fill()
+
+# octagon
+turtle.penup()
+turtle.goto(320, 0)
+turtle.pendown()
+turtle.begin_fill()
+turtle.forward(100)
+turtle.right(360 - 360/8)
+turtle.forward(100)
+turtle.right(360 - 360/8)
+turtle.forward(100)
+turtle.right(360 - 360/8)
+turtle.forward(100)
+turtle.right(360 - 360/8)
+turtle.forward(100)
+turtle.right(360 - 360/8)
+turtle.forward(100)
+turtle.right(360 - 360/8)
+turtle.forward(100)
+turtle.right(360 - 360/8)
+turtle.end_fill()
+
+turtle.penup()
+turtle.goto(-50, 200)
+turtle.pendown()
+turtle.write("Cool Colorful Shapes")
+
+turtle.hideturtle()
+turtle.done()
